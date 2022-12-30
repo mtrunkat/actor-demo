@@ -31,5 +31,10 @@ await Actor.pushData({
     secondNumber: input?.secondNumber * 2,
     sum: result * 2,
 });
+await Actor.pushData({
+    firstNumber: input?.firstNumber * 3,
+    secondNumber: input?.secondNumber * 3,
+    sum: result * 3,
+});
 
 await Actor.exit();
